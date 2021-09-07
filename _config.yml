@@ -18,16 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: VR Game
+email: shaoze@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Nowadays, the games industry becomes more and more popular and important, 
+  in which VR gaming is a relatively new area. 
+  However, according to IDC (International Data Corporation), 
+  the VR/AR market will dramatically expand from over $9 billion to $215 billion by 2021. 
+  That incredible 118% compound annual growth rate would make VR one of the fastest-growing industries.\n
+  I have played so many games in various consoles, 
+  gradually I found that many games become homogeneous. 
+  However, attracted by Ready Player One (2018), 
+  I dreamt of stepping into the fascinating game world. 
+  It would be so appealing, not just sitting on a chair and staring at a screen. 
+  It’s like a real RPG game, but the characters are ourselves. 
+  VR is helping us achieve it or get closer to it. 
+  However, good VR games are far fewer than traditional video games. 
+  In my research I want to learn about VR and how to create VR games, 
+  and figure out why the gap happens and how to improve it.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  sha0ze
 
 # Build settings
 theme: minima
