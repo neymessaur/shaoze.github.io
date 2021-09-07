@@ -21,11 +21,6 @@
 title: VR Game
 email: shaoze@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Nowadays, the games industry becomes more and more popular and important, 
-  in which VR gaming is a relatively new area. 
-  However, according to IDC (International Data Corporation), 
-  the VR/AR market will dramatically expand from over $9 billion to $215 billion by 2021. 
-  That incredible 118% compound annual growth rate would make VR one of the fastest-growing industries.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sha0ze
