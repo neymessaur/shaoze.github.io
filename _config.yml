@@ -25,17 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   in which VR gaming is a relatively new area. 
   However, according to IDC (International Data Corporation), 
   the VR/AR market will dramatically expand from over $9 billion to $215 billion by 2021. 
-  That incredible 118% compound annual growth rate would make VR one of the fastest-growing industries.\n
-  I have played so many games in various consoles, 
-  gradually I found that many games become homogeneous. 
-  However, attracted by Ready Player One (2018), 
-  I dreamt of stepping into the fascinating game world. 
-  It would be so appealing, not just sitting on a chair and staring at a screen. 
-  It’s like a real RPG game, but the characters are ourselves. 
-  VR is helping us achieve it or get closer to it. 
-  However, good VR games are far fewer than traditional video games. 
-  In my research I want to learn about VR and how to create VR games, 
-  and figure out why the gap happens and how to improve it.
+  That incredible 118% compound annual growth rate would make VR one of the fastest-growing industries.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sha0ze
