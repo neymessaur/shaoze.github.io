@@ -11,9 +11,9 @@ Microsoft: $138.6 billion<br>
 Sony: $79.2 billion<br>
 Intel: $75.7 billion<br>
 
-5 Products:
-PlayStation VR (Sony)
-Windows Mixed Reality (Microsoft)
-SteamVR (Valve)
-Oculus Gear VR Games
-VIVEPORT (HTC Vive)
+5 Products:<br>
+PlayStation VR (Sony)<br>
+Windows Mixed Reality (Microsoft)<br>
+SteamVR (Valve)<br>
+Oculus Gear VR Games<br>
+VIVEPORT (HTC Vive)<br>
