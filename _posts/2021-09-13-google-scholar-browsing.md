@@ -3,7 +3,7 @@ layout: post
 title:  "Google Scholar Browsing"
 ---
 30 papers that seem to be relevent:<br>
-<i> 1. From visual simulation to virtual reality to games<br>
+1. <i>From visual simulation to virtual reality to games</i><br>
 <i> 2. TranSection: Hand-Based Interaction for Playing a Game within a Virtual Reality Game<br>
 <i> 3. A Study of Immersive Game Contents System Design and Modeling for Virtual Reality Technology<br>
 <i> 4. Fear in virtual reality (VR): Fear elements, coping reactions, immediate and next-day fright responses toward a survival horror zombie virtual reality game<br>
