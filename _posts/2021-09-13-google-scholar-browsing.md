@@ -33,6 +33,6 @@ title:  "Google Scholar Browsing"
 28. <i>Computer game engines for developing first-person virtual environments</i><br>
 29. <i>Ethics of Virtual Reality Applications in Computer Game Production</i><br>
 30. <i>A Review Paper on Oculus Rift-A Virtual Reality Headset</i><br>
-<br>
+
 6 papers that are most relevent:<br>
-<i>Ethics of Virtual Reality Applications in Computer Game Production</i> <a href="url">https://www.mdpi.com/2409-9287/1/1/73</a> Ethical implications of virtual acting and motion capture, computer games ethics, ethics for virtual realities.<br>
+1.<i>Ethics of Virtual Reality Applications in Computer Game Production</i> <a href="url">https://www.mdpi.com/2409-9287/1/1/73</a> Ethical implications of virtual acting and motion capture, computer games ethics, ethics for virtual realities.<br>
