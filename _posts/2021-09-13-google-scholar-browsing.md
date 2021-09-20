@@ -44,7 +44,7 @@ image: /assets/images/vr.jpg
 3. <i>DUKE: Enhancing Virtual Reality based FPS Game with Full-body Interactions</i> <https://dl.acm.org/doi/abs/10.1145/3001773.3001804>Integrate Oculus Rift, Microsoft Kinect and Leap Motion technologies for a full-body FPS gaming experience. Full-body interactions enhance immersion in virtual reality. From their users' feedback, they have identified several directions for future work. One is to implement more natural combat gestures such as punching, grabbing and throwing objects in the game to further enhance interactivity. Besides addressing the dominant leg issue, the Navigation actions can be improved to capture and translate more natural body rotation and leg gestures into in-game movements. 
 <br>
 Full-body interaction technique using Oculus Rift, Leap Motion and Kinect 2:
-![]({{ page.image | relative_url}})
+![]({{ page.image}})
 <br><br>
 4. <i>Enhanced user immersive experience with a virtual reality based FPS game interface</i> <https://ieeexplore.ieee.org/abstract/document/5593369/authors#authors> Apply the virtual reality (VR) to a first-person shooting (FPS) game, verifying VR system provides better immersive experience to users than the traditional system (mouse and keyboard).<br>
 <br>
