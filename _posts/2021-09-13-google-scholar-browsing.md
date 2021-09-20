@@ -42,7 +42,7 @@ title:  "Google Scholar Browsing"
 3. <i>DUKE: Enhancing Virtual Reality based FPS Game with Full-body Interactions</i> <https://dl.acm.org/doi/abs/10.1145/3001773.3001804>Integrate Oculus Rift, Microsoft Kinect and Leap Motion technologies for a full-body FPS gaming experience.<br>
 4. <i>Enhanced user immersive experience with a virtual reality based FPS game interface</i> <https://ieeexplore.ieee.org/abstract/document/5593369/authors#authors> Apply the virtual reality (VR) to a first-person shooting (FPS) game, verifying VR system provides better immersive experience to users than the traditional system (mouse and keyboard).<br>
 Full-body interaction technique using Oculus Rift, Leap Motion and Kinect 2:
-<iframe src="https://drive.google.com/file/d/11xBAIr7aVccLUknx-arAvvCSWciJYhWm/view?usp=sharing"></iframe>
+<iframe src="https://github.com/sha0ze/sha0ze.github.io/blob/main/full_body_vr.pdf"></iframe>
 <br><br>
 5. <i>Ethics of Virtual Reality Applications in Computer Game Production</i> <https://www.mdpi.com/2409-9287/1/1/73> Ethical implications of virtual acting and motion capture, computer games ethics, ethics for virtual realities.<br><br>
 6. <i>Unity Virtual Reality Projects</i> <https://books.google.com/books?hl=en&lr=&id=vuF5CgAAQBAJ&oi=fnd&pg=PP1&dq=virtual+reality+game&ots=a44P1kPSzN&sig=qwczDVbHAXIxzjIawXZwtRSa21w#v=onepage&q=virtual%20reality%20game&f=false> Build immersive and fun virtual reality projects using Unity 3D.<br>
