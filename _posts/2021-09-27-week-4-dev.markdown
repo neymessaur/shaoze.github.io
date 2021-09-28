@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Week 4 Dev"
+---
+Time used: 16 hours<br>
+I found a free asset called Space Robot Kyle, created by Unity Technologies. I created a simple boxing arena and spent hours implementing basic body movements. ![](https://i.imgur.com/ab5nUZl.png)
+Now robot's arms can move and rotate with joints. 
+![](https://i.imgur.com/aXqSnCQ.png)
+![](https://i.imgur.com/0lkhxjm.png)
+![](https://i.imgur.com/vVU2j14.png)
+![](https://i.imgur.com/mmgwVwj.png)
+Also head can rotate up and down, like changing view. 
+![](https://i.imgur.com/L5PhZuh.png)
+![](https://i.imgur.com/lBSyblk.png)
+![](https://i.imgur.com/f2Hu5QU.png)
+However, after I finished arms and head movements, and trying to test it with my headsets, I encountered an issue. 
+I downloaded steamVR packages and connected my headsets to test my prototype within Unity play, an issue popped out. My Unity crashed. 
+![](https://i.imgur.com/lSvGMqU.png)
+I think I have to delete all vr related packages, and reinstall some of them. Redundant packages could have conflicts and cause errors.<br>
+
+Next week work: optimizing hand and arm movement, add some actions, like punching? Add an npc to react on being hit. Try to solve Unity crash issue, and connect Windows Mixed Reality with PC and test headset for rotating head and changing camera view, and controllers for basic movements of arms. 
