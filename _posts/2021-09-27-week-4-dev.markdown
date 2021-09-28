@@ -15,7 +15,7 @@ Also head can rotate up and down, like changing view.
 ![](https://i.imgur.com/f2Hu5QU.png)
 However, after I finished arms and head movements, and trying to test it with my headsets, I encountered an issue. 
 I downloaded steamVR packages and connected my headsets to test my prototype within Unity play, an issue popped out. My Unity crashed. 
-![](https://i.imgur.com/lSvGMqU.png)
+![](https://i.imgur.com/lSvGMqU.png)<br>
 I think I have to delete all vr related packages, and reinstall some of them. Redundant packages could have conflicts and cause errors.<br>
 
 Next week work: optimizing hand and arm movement, add some actions, like punching? Add an npc to react on being hit. Try to solve Unity crash issue, and connect Windows Mixed Reality with PC and test headset for rotating head and changing camera view, and controllers for basic movements of arms. 
