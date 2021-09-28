@@ -18,4 +18,4 @@ I downloaded steamVR packages and connected my headsets to test my prototype wit
 ![](https://i.imgur.com/lSvGMqU.png)<br>
 I think I have to delete all vr related packages, and reinstall some of them. Redundant packages could have conflicts and cause errors.<br>
 
-Next week work: optimizing hand and arm movement, add some actions, like punching? Add an npc to react on being hit. Try to solve Unity crash issue, and connect Windows Mixed Reality with PC and test headset for rotating head and changing camera view, and controllers for basic movements of arms. 
+Next week work: optimizing hands and arms movements, add some actions, like punching? Add an npc to react on being hit. Try to solve Unity crash issue, connect Windows Mixed Reality with PC, and test it for rotating head and changing camera view with headset, and basic movements of arms with controllers. 
