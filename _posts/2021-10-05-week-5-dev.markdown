@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Week 5 Dev"
+---
+Week 5 total hours used: 3 + 5 + 5 = 13 hours<br>
+<br>
+This week is a frustrating week, as I kept encountering Unity crash. ![](https://i.imgur.com/lSvGMqU.png)<br> After several attempts, I found that whenever I turn on my headset, and run any Unity scene, and then back to the edit mode, my Unity crashes. I had to reopen it again and again. After hours’ search online, I still didn’t figure out the cause behind the crash and there wasn’t an effective fix. So I decided to keep moving, solving the problem of package conflicts. (3 hours)<br>
+<br>
+To connect with the Mixed Reality headset, I used the Legacy XR plugin system in Unity. However, when I imported features of Microsoft’s Mixed Reality Toolkit, it included XR SDK packages, which are incompatible with XR SDK. So I had to find all installed SDK related packages and remove them. After I could build it, I tested it with my headset, but it did not work as I expected. When I turned on the headset and connected it to my PC, it only automatically opened the Mixed Reality Portal with no connection with Unity. I failed. So I looked at many setup tutorials and Mixed Reality headset connection troubleshootings. I found a recommendation for the new OpenXR Plugin, and it solved the problem. Meanwhile, it seems it also coincidentally fixed Unity crash issues with VR plugins. It hasn’t happened again, but this time when I turned off my headset while running a scene in Unity, it showed an error and quitted. So next time I need remember changing Unity back to edit mode before disconnecting the headset. (5 hours)<br>
+<br>
+After I successfully used the headset in Unity, I am able to test controllers and the head-mounted display device. I didn’t manage to use controllers for arm movements since it took me a long time to fix Unity VR issues, but head rotations looked good with the headset. So I will move the integration of controllers to work next week. (5 hours)
+![](https://i.imgur.com/OK4XtfL.png)
+![](https://i.imgur.com/WhIlGbi.png)
+![](https://i.imgur.com/tirr8VD.png)<br>
+This week I spent most of my time dealing with hardware issues (headset connection) and software issues (Unity crash) rather than designing and implementing my game (much more interesting) and the process was really frustrating. Since creating VR is a relatively unfamiliar area to me, I have no confidence to fix them. I can only experiment and search for solutions. But when I was able to use the headset in Unity, looking at my build through the HMD device, it was a completely different feeling than simply watching on a laptop screen. And I felt relieved. I solved it and eventually I can play a bit in Unity with my headset. It is cheering and worthy. 
+![](https://i.imgur.com/EyvS3UM.png)<br>
+
+Next week work: integrate controllers for arm movements and implement a special gesture, “hadouken.” Learning to create 3D models for the main character replacing the robot.
