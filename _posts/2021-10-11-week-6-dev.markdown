@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Week 6 Dev"
+---
+
+Time used 12 hours (1 + 6 + 5)<br>
+
+This week, I have been working on integrating controllers with my robot’s hands in Unity. I thought it would be as easy as the camera integration. But it seemed far more difficult since controllers have more functionalities. I have to map each button and scroll wheel. To use Mixed Reality Toolkits built-in camera system, I had imported the package last week. However, everytime I connected the controllers, because of Mixed Reality Toolkits, there was a default model of skeleton hands, I was not able to override it. The package was too complicated, When I ran the program, it automatically generated clone gameObjects detected left and right controllers’ actions. This was not what I expected, so I had to spend nearly 6 hours getting rid of those default models. Eventually I found a document introducing XR Interaction Toolkits. <br>
+<br>
+So instead of MRTK, I used XRI to integrate controllers. I spent 5 hours exploring the use of XRI. It is a preview package, so I was not very sure if it could work well. I created an interaction gameObject, called XR rig, inside which there were three children, camera, left hand controller, and right hand controller. Head and controllers have different XR Controller’s script: head is device based, controllers are action based. So for each one  I need to map each corresponding reference of actions for inputs.<br>
+![](https:/i.imgur.com/cXsTyoO.png)<br>
+![](https://i.imgur.com/BYEGb0F.png)<br>
+![](https://i.imgur.com/JUKZcYv.png)<br>
+
+<br>
+Now the character works as expected, but I still need to smooth and optimize the body movement. Sometimes when moving arms, it could cross each other like this:<br>
+![](ttps://i.imgur.com/vIKqy0D.png)<br>
+<br>
+As usual, I encountered Unity problems. I spent 1 hour trying to figure out how to fix the issues. I used Unity 2020.3.20f1, the newest LTS version, but it seems there isn’t much information about the solution.  Though I still met the crash several times, I found the pattern, whenever I disconnected the headset from my PC, Unity would crash. I also met another crash, when I was running the project I connected my headset, Unity crashed. I still have no idea why this happened, but it did not harm my project, so I should leave it.<br>
+![](https://i.imgur.com/DyGUV9g.png)<br>
+<br>
+Next week, I will keep working on optimizing arms and hands movements, which are the basics of building various gestures. Then it will be easier and faster to implement those fighting skills. After smooth arms movements, I will try to add moving actions so that the robot can move and step into the boxing arena. Besides the technical part, I will also need to contact some new people since for weeks I haven’t received any feedback. <br>
