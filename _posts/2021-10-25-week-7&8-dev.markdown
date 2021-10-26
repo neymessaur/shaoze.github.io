@@ -8,16 +8,16 @@ Time used 24 hours (1+8+2)<br>
 Since I hadn’t received any interview responses, I needed to contact some new stakeholders. I spent an hour searching alumni and VR Arcades, and sent emails to them (one alumnus, two VR Arcades). <br>
 <br>
 The week before last week, I met a new problem. When I was using XR interaction to integrate controllers instead of recommended Mixed Reality Toolkits (MRTK), there was an issue that Windows Mixed Reality (WMR) input was not recognizable, which means translation, rotation, and button pressing all not working. So I searched online trying to figure out how I could fix the problem. I spent more than 8 hours debugging. I have found these websites discussing related topics and possible solutions but none of them worked for me.<br>
-</i> <https://forum.unity.com/threads/controllers-not-tracking.1006551/><br>
-</i> <https://forum.unity.com/threads/xr-controller-not-tracking-device.1062725/><br>
-</i> <https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/unity-development-overview?tabs=arr%2CD365%2Chl2#2-core-building-blocks><br>
-</i> <https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html><br>
-</i> <https://forum.unity.com/threads/unitys-plans-for-openxr.993225/><br>
-</i> <https://skarredghost.com/2020/09/25/steamvr-unity-xr-interaction-toolkit-input/><br>
-</i> <https://forum.unity.com/threads/controllers-are-not-working-xr-setup-with-oculusvr-openvr-loaders-enabled.1014067/><br>
-</i> <https://docs.unity3d.com/Packages/com.unity.xr.windowsmr@5.4/manual/index.html><br>
-</i> <https://forum.unity.com/threads/oculus-controller-input-not-recognized-using-xr-interaction-toolkit.932295/><br>
-</i> <https://forum.unity.com/threads/xr-interaction-toolkit-wmr-support-with-action-based-xr-rig.1028911/><br>
+<https://forum.unity.com/threads/controllers-not-tracking.1006551/><br>
+<https://forum.unity.com/threads/xr-controller-not-tracking-device.1062725/><br>
+<https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/unity-development-overview?tabs=arr%2CD365%2Chl2#2-core-building-blocks><br>
+<https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html><br>
+<https://forum.unity.com/threads/unitys-plans-for-openxr.993225/><br>
+<https://skarredghost.com/2020/09/25/steamvr-unity-xr-interaction-toolkit-input/><br>
+<https://forum.unity.com/threads/controllers-are-not-working-xr-setup-with-oculusvr-openvr-loaders-enabled.1014067/><br>
+<https://docs.unity3d.com/Packages/com.unity.xr.windowsmr@5.4/manual/index.html><br>
+<https://forum.unity.com/threads/oculus-controller-input-not-recognized-using-xr-interaction-toolkit.932295/><br>
+<https://forum.unity.com/threads/xr-interaction-toolkit-wmr-support-with-action-based-xr-rig.1028911/><br>
 <br>
 At last, I discovered that the official XR plugin-in management recommended OpenXR for universal VR headsets, including WMR. But, in fact, it did not read WMR inputs (not sure why this happened). After I switched it to WMR specifically, it worked. According to the modified Project Settings, there might be a future problem that the game will only work with WMR.<br>
 ![](https://i.imgur.com/0x2Fn6D.png)<br>
@@ -26,7 +26,7 @@ Then, I spent 2 hours optimizing left and right hand controllers, smoothing the 
 ![](https://i.imgur.com/7qWWerZ.png)<br>
 ![](https://i.imgur.com/97CQW95.png)<br>
 ![](https://i.imgur.com/JA54mXd.png)<br>
-<iframe width="420" height="315" src="https://vimeo.com/639063737" frameborder="0" allowfullscreen></iframe><br><br>
+<https://vimeo.com/639063737"><br><br>
 
 And then I spent 5 hours adding walking animations for the character's legs. I downloaded walking animations from mixamo, changed the animation type from Generic to Humanoid, and configured it to Avatar so that it could be used for gameobject’s animation.<br>
 ![](https://i.imgur.com/237JcqQ.png)<br>
@@ -39,6 +39,9 @@ But an issue popped out, and I was not able to fix it. The character continuousl
 I didn’t know how to fix it so I had to change my plan to basic moving.<br>
 <br>
 I spent 8 hours implementing continuous movement with the Locomotion system. Now the left controller controls moving, and the right one controls turning direction.<br>
+<https://vimeo.com/639063715><br>
+<https://vimeo.com/639062994><br>
+<https://vimeo.com/639063727><br>
 <br>
 This week I am going to optimize the moving, and figure out how to implement gestures. I will also spend some time watching Austin Krauss’s presentation “From Commodore to Oculus: My life in video games”. <br>
-</i> <https://umdearborn.edu/alumni/get-involved/alumni-resources-keep-you-connected/um-dearborn-homecoming/speaker-series><br>
+<https://umdearborn.edu/alumni/get-involved/alumni-resources-keep-you-connected/um-dearborn-homecoming/speaker-series><br>
