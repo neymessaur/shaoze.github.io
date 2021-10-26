@@ -3,7 +3,7 @@ layout: post
 title:  "Week 7 & 8 Dev"
 ---
 
-Time used 24 hours (1+8+2)<br>
+Time used 24 hours (1+8+2+5+8)<br>
 <br>
 Since I hadn’t received any interview responses, I needed to contact some new stakeholders. I spent an hour searching alumni and VR Arcades, and sent emails to them (one alumnus, two VR Arcades). <br>
 <br>
@@ -26,7 +26,8 @@ Then, I spent 2 hours optimizing left and right hand controllers, smoothing the 
 ![](https://i.imgur.com/7qWWerZ.png)<br>
 ![](https://i.imgur.com/97CQW95.png)<br>
 ![](https://i.imgur.com/JA54mXd.png)<br>
-<https://vimeo.com/639063737"><br><br>
+Video: <br>
+<https://vimeo.com/639063737><br><br>
 
 And then I spent 5 hours adding walking animations for the character's legs. I downloaded walking animations from mixamo, changed the animation type from Generic to Humanoid, and configured it to Avatar so that it could be used for gameobject’s animation.<br>
 ![](https://i.imgur.com/237JcqQ.png)<br>
@@ -39,6 +40,7 @@ But an issue popped out, and I was not able to fix it. The character continuousl
 I didn’t know how to fix it so I had to change my plan to basic moving.<br>
 <br>
 I spent 8 hours implementing continuous movement with the Locomotion system. Now the left controller controls moving, and the right one controls turning direction.<br>
+Video:<br>
 <https://vimeo.com/639063715><br>
 <https://vimeo.com/639062994><br>
 <https://vimeo.com/639063727><br>
