@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Week 7 & 8 Dev"
+---
+
+Time used 24 hours (1+8+2)<br>
+<br>
+Since I hadn’t received any interview responses, I needed to contact some new stakeholders. I spent an hour searching alumni and VR Arcades, and sent emails to them (one alumnus, two VR Arcades). <br>
+<br>
+The week before last week, I met a new problem. When I was using XR interaction to integrate controllers instead of recommended Mixed Reality Toolkits (MRTK), there was an issue that Windows Mixed Reality (WMR) input was not recognizable, which means translation, rotation, and button pressing all not working. So I searched online trying to figure out how I could fix the problem. I spent more than 8 hours debugging. I have found these websites discussing related topics and possible solutions but none of them worked for me.<br>
+![](https://forum.unity.com/threads/controllers-not-tracking.1006551/)<br>
+![](https://forum.unity.com/threads/xr-controller-not-tracking-device.1062725/)<br>
+![](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/unity-development-overview?tabs=arr%2CD365%2Chl2#2-core-building-blocks)<br>
+![](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@0.9/manual/index.html)<br>
+![](https://forum.unity.com/threads/unitys-plans-for-openxr.993225/)<br>
+![](https://skarredghost.com/2020/09/25/steamvr-unity-xr-interaction-toolkit-input/)<br>
+![](https://forum.unity.com/threads/controllers-are-not-working-xr-setup-with-oculusvr-openvr-loaders-enabled.1014067/)<br>
+![](https://docs.unity3d.com/Packages/com.unity.xr.windowsmr@5.4/manual/index.html)<br>
+![](https://forum.unity.com/threads/oculus-controller-input-not-recognized-using-xr-interaction-toolkit.932295/)<br>
+![](https://forum.unity.com/threads/xr-interaction-toolkit-wmr-support-with-action-based-xr-rig.1028911/)<br>
+<br>
+At last, I discovered that the official XR plugin-in management recommended OpenXR for universal VR headsets, including WMR. But, in fact, it did not read WMR inputs (not sure why this happened). After I switched it to WMR specifically, it worked. According to the modified Project Settings, there might be a future problem that the game will only work with WMR.<br>
+![](https://i.imgur.com/0x2Fn6D.png)<br>
+<br>
