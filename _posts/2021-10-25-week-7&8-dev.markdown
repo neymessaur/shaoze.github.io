@@ -22,3 +22,22 @@ The week before last week, I met a new problem. When I was using XR interaction 
 At last, I discovered that the official XR plugin-in management recommended OpenXR for universal VR headsets, including WMR. But, in fact, it did not read WMR inputs (not sure why this happened). After I switched it to WMR specifically, it worked. According to the modified Project Settings, there might be a future problem that the game will only work with WMR.<br>
 ![](https://i.imgur.com/0x2Fn6D.png)<br>
 <br>
+Then, I spent 2 hours optimizing left and right hand controllers, smoothing the movement, and adding XR Ray Interactors for future interaction with interactables at a distance.<br>
+![](https://i.imgur.com/7qWWerZ.png)<br>
+![](https://i.imgur.com/97CQW95.png)<br>
+![](https://i.imgur.com/JA54mXd.png)<br>
+
+And then I spent 5 hours adding walking animations for the character's legs. I downloaded walking animations from mixamo, changed the animation type from Generic to Humanoid, and configured it to Avatar so that it could be used for gameobject’s animation.<br>
+![](https://i.imgur.com/237JcqQ.png)<br>
+![](https://i.imgur.com/zHHVd2d.png)<br>
+![](https://i.imgur.com/h6m4RPj.png)<br>
+![](https://i.imgur.com/r6Auc2O.png)<br>
+But an issue popped out, and I was not able to fix it. The character continuously fell under the ground. <br>
+![](https://i.imgur.com/GugLzhN.png)<br>
+![](https://i.imgur.com/uHJ3Cc8.png)<br>
+I didn’t know how to fix it so I had to change my plan to basic moving.<br>
+<br>
+I spent 8 hours implementing continuous movement with the Locomotion system. Now the left controller controls moving, and the right one controls turning direction.<br>
+<br>
+This week I am going to optimize the moving, and figure out how to implement gestures. I will also spend some time watching Austin Krauss’s presentation “From Commodore to Oculus: My life in video games”. <br>
+</i> <https://umdearborn.edu/alumni/get-involved/alumni-resources-keep-you-connected/um-dearborn-homecoming/speaker-series><br>
