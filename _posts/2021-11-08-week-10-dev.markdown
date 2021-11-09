@@ -10,7 +10,7 @@ Last Friday, I spent 3 hours fixing the issue related to shooting directions. I 
 Then I tried to implement the hadouken-like special attack gesture. I designed it as two phases: the first one is a fireball on each hand and when two fireballs collide, they are energized into a larger fireball; the second one is pressing the trigger to cast the spell. At the beginning, I mistakenly thought I could implement the two phases with only one input action (only press trigger button): when pressing the trigger the first time your two hands will cast two fireballs, then if they collide you can press the second time to shoot them as a larger fireball. But I wasted 3 hours. It was too difficult to branch the conditions for the unique input action of the VR controller, specifically, “trigger-button-pressed”. Then, I spent six hours successfully simplifying it by adding one more input action “grip-button-pressed”. Now, when you press the grip button, you will generate two fireballs on your two hands, and if they are close to each other, they will combine to a larger one, and you can press the trigger to shoot. After I decided to use two buttons, the process was much easier, and the main task was dealing with collisions and instantiating a larger fireball from the two smaller one. <br>
 ![](https://i.imgur.com/uN8ouP4.png)<br>
 ![](https://i.imgur.com/m25cArI.png)<br>
-<https://vimeo.com/643897430><br>
+Video: <https://vimeo.com/643897430><br>
 <br>
 While I was testing my game with the WMR headset last week, I encountered a new problem. Sometimes the Head-mounted display (HMD) device kept loading like the image below, and the game scene was not responding. This was very time consuming.<br>
 ![](https://i.imgur.com/d3dX0Bz.png)<br>
@@ -19,7 +19,7 @@ Also, when I tried to capture the gifs with ShareX to upload to imgur for my Dev
 ![](https://i.imgur.com/4TBUvW2.png)<br>
 ![](https://i.imgur.com/pJ5y9YF.png)<br>
 <br>
-This week, I want to spend most of my time optimizing the gesture, implementing an energizing period like 3 or 4 seconds and creating my own particle effects.<br>
+This week, I want to spend most of my time optimizing the gesture, implementing an energizing period like 3 or 4 seconds, and creating my own particle effects.<br>
 
 
 
