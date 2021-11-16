@@ -7,13 +7,13 @@ Time used 12 hours (5+4+2+1)<br>
 <br>
 Last week, I spent 5 hours optimzing Hadouken attack. I optimized the shooting direction and modified hadouken attack mechanism: at a certain range the player's two hands start casting fires, and when get closer they start generating a fireball that lasts for two seconds, during which the player can press the trigger to shoot it. In order to see the fireball clearly, I also design the fire ball to increase its size while it is flying away, so in the player 's perspective, its scale won’t change.<br>
 I spent 4 hours working on the enemy. I added a walking animation, and fortunately, the issue that occurred weeks before didn’t happen this time. I also added an explosion effect when the hadouken spell hit the enemy, it then broke the robot enemy apart and left the wreckage. The particle issue that occurred weeks before also didn’t happen. I have used OBS to record a short video of the main gameplay.<br>
-![](https://youtu.be/yQram5O9VAE)<br>
+<https://youtu.be/yQram5O9VAE><br>
 <br>
 Last week, I encountered a new problem that I hadn't ever met before. I spent 2 hours trying to figure out the post processing bug. After I import some assets for particle effects and enemies, Unity popped out an error: <i>Library\PackageCache\com.unity.postprocessing@2.0.3-preview\PostProcessing\Runtime\PostProcessManager.cs(424,66): error CS0117: 'EditorSceneManager' does not contain a definition for 'IsGameObjectInScene'.</i> This caused XR interaction to fail. Though I still can control the camera with the HMD but the main character was disrelated, I couldn’t control the arms with my controllers. I tried to modify the XR rig, but it was not working. It seemed that the only solution was to deal with the post processing package. It was the 2.0.3 version, and worked fine in the past. To solve the problem, I was suggested to upgrade it to 3.1.1, but it’s still not working. <br>![](https://i.imgur.com/XamT3Ip.png)<br>
 I didn’t want to waste more time on this visual stuff, so I deleted the installed packages, and it went back to normal except that the color of the game scene seemed a bit strange, white looked like cyan.
 <br>
 I also used 1 hour to create a simple game loop, setting up the home scene and winning scene (K.O. scene).<br>
-![](https://youtu.be/cO3swDctkUE)<br>
+<https://youtu.be/cO3swDctkUE><br>
 ![](https://i.imgur.com/IG9uEN4.png)<br>
 I will find and change the UI to a Street Fighter like font or a Real Steel like font. <br>
 <br>
