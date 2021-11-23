@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Week 12 Dev"
+---
+
+Time used 12 hours (2+6+3+1)<br>
+<br>
+Last week, I started implementing basic hits using controllers. It took me 2 hours to experiment. However, it was far more difficult than I had thought to control five individual finger joints with the controller. When I implemented the simulation of arm moving by controllers, I used Animation Rigging and aligned the controller to the corresponding wrist joint. As a result, to mimic making a fist, I will need to control those five joints at the same time.<br>
+![](https://i.imgur.com/cf10oFf.png)<br>
+So I changed my idea to design fireball casting as the normal attack and hadouken as the special attack.<br>
+<br>
+I spent most of my time this week (6 hrs) implementing the normal attack mechanics. The main idea was to detect the pushing movement without using any button to control the action. I tried calculating the distance between controllers and the player, using velocity to determine, memorizing previous position and comparing it with the current frame update. But all of them didn't work well as sometimes the player could cast the fireball when they didn’t intend to. After many experiments, I discovered adding a sphere collider to the robot and checking whenever the controller getting outside of it (the player's hand was nearly at the farthest distance away from his body). Now it works successfully, and the player can use two hands separately to cast fireballs as the normal attack.<br>
+![](https://i.imgur.com/d0zLx1x.png)<br>
+Video: <https://youtu.be/LKlO1fNxEa0><br>s
+<br>
+I spent 3 hours playing with the particle system, and modifying the hadouken as an energy orb rather than the previous fireball so that it is different from the normal attack. Also, I have added the growth of hadouken; now it will gather energy and grow larger for 4 seconds, and then if you don’t shoot it out, it will disappear and you will need to regenerate.<br>
+Video: <https://youtu.be/g3oE8LX5sVc><br>
+<br>
+After that when I was playtesting it, I found that sometimes you could cast normal attacks at the same time when you were generating hadouken and vice versa. So I modified it to only one attack at a time, and after your skills disappeared you were able to cast the other kind (you could cast multiple fireballs or hadoukens). I also prioritized the special attack. 
+<br>
+This week, as the main player’s attack mechanics have finished, I am going to focus on enemy attacks, though I still do not have an interesting enemy attack design in my mind. Maybe the enemy can shoot bullets, and if the player casts the fireball, he will destroy the bullets and prevent himself from taking damage? I will improve the UI, build the game, and bring the headset to the meeting next week so that we can playtest it. I will also start to make a presentation powerpoint and itch.io page.
+<br>
+
+
+
+
+
