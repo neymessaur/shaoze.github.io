@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Week 13 Dev"
+---
+
+Time used 12 hours (6+0.5+1+3+1.5)<br>
+<br>
+
+Last week, during Thanksgiving break, I mainly worked on implementing the mechanics of shooting hadouken without pressing any button, by detecting pushing gestures. I spent about 6 hrs experimenting and eventually worked it out. Looking back to previous blogs, I found it very interesting that at the very beginning I implemented it with two buttons, one is for generating, one is for shooting; then, I detected distance between hands to auto gather hadouken, so only needed pressing a trigger to shoot; now, not need for any button, you can grow and throw it with only gestures.<br>
+Video: <https://youtu.be/CeDnU1d2S-A><br>
+Then, I spent half an hour fixing the bug of reverse directions of shooting and one hour optimzing spells switching between firball and hadouken.<br>
+<br>
+Unfortunately, last night when I built my game for playtest, I found the menu not working with the WMR controllers. After having spent nearly 2 hours searching for the possible issues, I found that it seemed OpenXR was not compatible. I had to redo the menu by using the XR Interaction Toolkit. Total time was 3 hours. <br>
+Video: <https://youtu.be/PXXE-INWqXQ><br>
+Also, there is another build problem. It got several errors like “cannot build player while editor is importing assets or compiling scripts” and packages’ editor compile error. It took me 1.5 hrs to solve all the problems and successfully build the game.<br>
+<br>
+But last week, I didn’t get time to work on the mechanics of the enemy. I only let it respawn a short period of time after the player destroyed it into pieces. Next week,I will work on enemies, and add audios to make the game more immersive and exciting, also preparing the showcase presentation.  
+
+
+
+
+
+

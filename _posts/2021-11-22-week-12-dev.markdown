@@ -18,7 +18,7 @@ Video: <https://youtu.be/g3oE8LX5sVc><br>
 <br>
 After that when I was playtesting it, I found that sometimes you could cast normal attacks at the same time when you were generating hadouken and vice versa. So I modified it to only one attack at a time, and after your skills disappeared you were able to cast the other kind (you could cast multiple fireballs or hadoukens). I also prioritized the special attack. 
 <br>
-This week, as the main player’s attack mechanics have finished, I am going to focus on enemy attacks, though I still do not have an interesting enemy attack design in my mind. Maybe the enemy can shoot bullets, and if the player casts the fireball, he will destroy the bullets and prevent himself from taking damage? I will improve the UI, build the game, and bring the headset to the meeting next week so that we can playtest it. I will also start to make a presentation powerpoint and itch.io page.
+This week, as the main player’s attack mechanics have finished, I am going to focus on enemy attacks, though I still do not have an interesting enemy attack design in my mind. Maybe the enemy can shoot bullets, and if the player casts the fireball, he will destroy the bullets and prevent himself from taking damage? I will improve the UI, build the game, and bring the headset to the meeting next week so that we can playtest it.
 <br>
 
 
